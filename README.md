@@ -1,5 +1,6 @@
-# AUSSP-EAGLE-Parts
-Contains parts for EAGLE not included in the default libraries.
+# Auburn University Small Satellite Program: EAGLE-Parts
+Contains parts for EAGLE not included in the default libraries, but needed by AUSSP.
+
 These parts were made in EAGLE 6, but should be compatible with current versions of EAGLE. They will be missing the 3D attributes used by the 3D renderer in EAGLE 7 and above.
 
 ## Installation
@@ -20,7 +21,10 @@ The following procedures explain how to install these files into EAGLE:
   * If not, you may need to go back to the schematic and go to "Library->Update all" in the menubar to refresh the library listings
   * If you still can't see them, then go to "Library->Use..." and select all of your custom libraries to use, then do an Update all
 
-## Information on some of the libraries:
+## Included Components:
+TBD
+
+## Information on AUSSP-Specific Libraries:
 
 ### AS2_AVIONICS_LOGOS.lbr
 Contains logos used in the AS-2 days. Not really relevant for new projects, just nice for aesthetics.
