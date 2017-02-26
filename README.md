@@ -1,5 +1,6 @@
 # AUSSP-EAGLE-Parts
-Contains parts for EAGLE not included in the default libraries
+Contains parts for EAGLE not included in the default libraries.
+These parts were made in EAGLE 6, but should be compatible with current versions of EAGLE. They will be missing the 3D attributes used by the 3D renderer in EAGLE 7 and above.
 
 ## AS2_AVIONICS_LOGOS.lbr
 Contains logos used in the AS-2 days. Not really relevant for new projects, just nice for aesthetics.
