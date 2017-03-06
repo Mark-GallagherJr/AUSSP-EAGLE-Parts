@@ -923,24 +923,6 @@
 <text x="-12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-7.62" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="INA219B">
-<text x="-8.89" y="7.62" size="1.6764" layer="95">&gt;NAME</text>
-<text x="-1.27" y="-8.89" size="1.6764" layer="96">INA219B</text>
-<text x="8.89" y="10.16" size="1.6764" layer="97">I2C Address:</text>
-<text x="8.89" y="7.62" size="1.6764" layer="97">&gt;ADDRESS</text>
-<wire x1="-8.89" y1="-6.35" x2="-8.89" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="6.35" x2="8.89" y2="6.35" width="0.254" layer="94"/>
-<wire x1="8.89" y1="6.35" x2="8.89" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="8.89" y1="-6.35" x2="-8.89" y2="-6.35" width="0.254" layer="94"/>
-<pin name="IN+" x="-11.43" y="3.81" visible="pin" length="short"/>
-<pin name="IN-" x="-11.43" y="1.27" visible="pin" length="short"/>
-<pin name="GND" x="-11.43" y="-1.27" visible="pin" length="short"/>
-<pin name="VS" x="-11.43" y="-3.81" visible="pin" length="short"/>
-<pin name="SCL" x="11.43" y="-3.81" visible="pin" length="short" rot="R180"/>
-<pin name="SDA" x="11.43" y="-1.27" visible="pin" length="short" rot="R180"/>
-<pin name="A0" x="11.43" y="1.27" visible="pin" length="short" rot="R180"/>
-<pin name="A1" x="11.43" y="3.81" visible="pin" length="short" rot="R180"/>
-</symbol>
 <symbol name="ISP752T">
 <wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
 <wire x1="12.7" y1="7.62" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
@@ -1461,29 +1443,6 @@
 <connect gate="G$1" pin="ON" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="OUT_2" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="INA219B">
-<description>Bidirectional Current/Power Monitor w/ I2C</description>
-<gates>
-<gate name="G$1" symbol="INA219B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-8">
-<connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VS" pad="VS"/>
 </connects>
 <technologies>
 <technology name=""/>
