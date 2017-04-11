@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -356,7 +356,7 @@
 <pin name="P2.3/UCA0STE/TB0OUTH" x="20.32" y="20.32" length="middle" rot="R180"/>
 <pin name="P2.2/UCA0CLK/TB0.4/RTCCLK" x="20.32" y="22.86" length="middle" rot="R180"/>
 <pin name="P2.1/UCA0SOMI/UCA0RXD/TB0.5/DMAE0" x="20.32" y="25.4" length="middle" rot="R180"/>
-<pin name="RST/NMI/SBWTDIO" x="-68.58" y="12.7" length="middle" rot="R180"/>
+<pin name="!RST!/NMI/SBWTDIO" x="-68.58" y="12.7" length="middle" rot="R180"/>
 <pin name="P2.0/UCA0SIMO/UCA0TXD/TB0.6/TB0CLK" x="20.32" y="27.94" length="middle" rot="R180"/>
 <pin name="P7.0/TA0CLK/S17" x="96.52" y="-2.54" length="middle" rot="R180"/>
 <pin name="P7.1/TA0.0/S16" x="96.52" y="-5.08" length="middle" rot="R180"/>
@@ -474,6 +474,7 @@ Texas Instruments
 <devices>
 <device name="" package="PZ100">
 <connects>
+<connect gate="G$1" pin="!RST!/NMI/SBWTDIO" pad="29"/>
 <connect gate="G$1" pin="AVCC1" pad="79"/>
 <connect gate="G$1" pin="AVSS1" pad="83"/>
 <connect gate="G$1" pin="AVSS2" pad="86"/>
@@ -572,7 +573,6 @@ Texas Instruments
 <connect gate="G$1" pin="PJ.6/HFXIN" pad="82"/>
 <connect gate="G$1" pin="PJ.7/HFXOUT" pad="81"/>
 <connect gate="G$1" pin="R33/LCDCAP" pad="6"/>
-<connect gate="G$1" pin="RST/NMI/SBWTDIO" pad="29"/>
 <connect gate="G$1" pin="TEST/SBWTCK" pad="28"/>
 </connects>
 <technologies>
